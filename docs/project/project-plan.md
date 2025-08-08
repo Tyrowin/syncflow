@@ -114,7 +114,9 @@ _Status: Completed on 2025-08-08._
 - `ConvexClientProvider` wired in root layout.
 - Frontend compiles and lints clean.
 
-### Task 3.2: Render Kanban Board UI
+### Task 3.2: Render Kanban Board UI ✅ (Completed)
+
+_Status: Completed on 2025-08-08._
 
 **Purpose:** Build visual components with mock data.
 
