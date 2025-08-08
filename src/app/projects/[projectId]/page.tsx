@@ -24,9 +24,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     <main className="p-6 space-y-6">
       <header className="space-y-1">
         <h1 className="text-2xl font-bold">Project {projectId}</h1>
-        <p className="text-xs opacity-70">(Mock board phase)</p>
+        <p className="text-xs opacity-70">Live board</p>
       </header>
-      <ProjectBoard />
+      <ProjectBoard projectId={projectId} />
     </main>
   );
 }

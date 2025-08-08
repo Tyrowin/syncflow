@@ -138,22 +138,24 @@ _Status: Completed on 2025-08-08._
 
 Connect UI to live Convex data.
 
-### Task 4.1: Fetch and Display Real-time Data
+### Task 4.1: Fetch and Display Real-time Data ✅ (Completed)
+
+_Status: Completed on 2025-08-09._
 
 **Purpose:** Replace mock data with live backend data.
 
 **Subtasks:**
 
-- In `ProjectBoard`, use `useQuery` for project columns.
-- In `Column`, use `useQuery` for tasks.
-- Ensure all Convex-hook components are client components.
+- In `ProjectBoard`, use `useQuery` for project columns. (Done)
+- In `Column`, use `useQuery` for tasks. (Done)
+- Ensure all Convex-hook components are client components. (Done)
 
-**Definition of Done:**
+**Definition of Done:** (Met)
 
 - Board shows live Convex data.
-- Dashboard changes reflect instantly.
-- Proper loading and empty states.
-- Code compiles and lints clean.
+- Dashboard changes reflect instantly (Convex real-time queries wired; manual dashboard edits reflect on board).
+- Proper loading and empty states added for board and columns.
+- Code compiles and lints clean (`bun run lint` passes).
 
 ### Task 4.2: Implement Drag-and-Drop Task Movement
 
