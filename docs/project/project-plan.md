@@ -95,7 +95,9 @@ _Status: Completed on 2025-08-08._
 
 Set up frontend structure and initial Kanban UI.
 
-### Task 3.1: Set Up Next.js App Router and Providers
+### Task 3.1: Set Up Next.js App Router and Providers ✅ (Completed)
+
+_Status: Completed on 2025-08-08._
 
 **Purpose:** Establish routing and shared providers.
 
