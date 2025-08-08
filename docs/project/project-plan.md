@@ -43,16 +43,18 @@ _Status: Completed on 2025-08-08._
 
 **Definition of Done:** (Met)
 
-- `convex/` directory with default schema/functions exists. ✅
-- Convex dashboard shows project connected (deployment: `amiable-starfish-861`). ✅
-- Next.js server reads Convex URL from env (`NEXT_PUBLIC_CONVEX_URL` present). ✅
-- Code compiles without errors (`bun run build` succeeded post-initialization). ✅
+- `convex/` directory with default schema/functions exists.
+- Convex dashboard shows project connected (deployment: `amiable-starfish-861`).
+- Next.js server reads Convex URL from env (`NEXT_PUBLIC_CONVEX_URL` present).
+- Code compiles without errors (`bun run build` succeeded post-initialization).
 
 ## Phase 2: Core Backend with Convex
 
 This phase focuses on defining the database schema and creating the core real-time functions for the Kanban board (frontend-agnostic).
 
-### Task 2.1: Define Database Schema
+### Task 2.1: Define Database Schema ✅ (Completed)
+
+_Status: Completed on 2025-08-08._
 
 **Purpose:** Model data for projects, columns, and tasks.
 
