@@ -6,7 +6,9 @@ This document outlines the tasks required to build a full-stack, type-safe, real
 
 This phase focuses on initializing the Next.js project, installing all dependencies, and configuring the development environment.
 
-### Task 1.1: Initialize Next.js Project and Tooling
+### Task 1.1: Initialize Next.js Project and Tooling ✅ (Completed)
+
+_Status: Completed on 2025-08-08._
 
 **Purpose:** To create a stable foundation for the project with all the necessary tools and configurations in place, ensuring a smooth development workflow from the start.
 
@@ -26,7 +28,9 @@ This phase focuses on initializing the Next.js project, installing all dependenc
 - Project builds via `bun run build`.
 - DaisyUI classes (e.g., `btn`, `card`) render correctly.
 
-### Task 1.2: Set Up Convex Backend
+### Task 1.2: Set Up Convex Backend ✅ (Completed)
+
+_Status: Completed on 2025-08-08._
 
 **Purpose:** To integrate the Convex SDK and establish the initial connection between the local development environment and the Convex cloud backend.
 
@@ -37,12 +41,12 @@ This phase focuses on initializing the Next.js project, installing all dependenc
 - Add Convex env var `NEXT_PUBLIC_CONVEX_URL` to `.env.local`.
 - Ensure `.env.local` is in `.gitignore`.
 
-**Definition of Done:**
+**Definition of Done:** (Met)
 
-- `convex/` directory with default schema/functions exists.
-- Convex dashboard shows project connected.
-- Next.js server reads Convex URL from env.
-- Code compiles without errors.
+- `convex/` directory with default schema/functions exists. ✅
+- Convex dashboard shows project connected (deployment: `amiable-starfish-861`). ✅
+- Next.js server reads Convex URL from env (`NEXT_PUBLIC_CONVEX_URL` present). ✅
+- Code compiles without errors (`bun run build` succeeded post-initialization). ✅
 
 ## Phase 2: Core Backend with Convex
 
