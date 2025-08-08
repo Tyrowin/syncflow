@@ -72,7 +72,9 @@ _Status: Completed on 2025-08-08._
 - Dashboard shows `projects`, `columns`, `tasks`.
 - Code compiles and passes lint.
 
-### Task 2.2: Create Core Convex Queries and Mutations
+### Task 2.2: Create Core Convex Queries and Mutations ✅ (Completed)
+
+_Status: Completed on 2025-08-08._
 
 **Purpose:** Provide API functions for real-time board operations.
 
